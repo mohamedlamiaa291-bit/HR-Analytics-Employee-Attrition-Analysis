@@ -1,44 +1,36 @@
-# 📊 HR Analytics & Employee Attrition Intelligence
+# 📊 تحليل بيانات الموارد البشرية ومؤشرات مغادرة الموظفين (HR Analytics)
 
-An end-to-end HR Analytics project designed to investigate employee turnover patterns, evaluate organizational factors, and identify key drivers behind employee attrition. This project demonstrates dual-tool proficiency, utilizing both **Microsoft Excel** and **Power BI** to process, model, and visualize workforce metrics.
-
----
-
-## 🚀 Project Overview
-Employee retention is a critical challenge for modern organizations. This project analyzes a comprehensive dataset of **1,470 employee records** to uncover actionable insights into why employees leave the company, highlighting a total attrition rate of **16.1%**.
+يهدف هذا المشروع الاحترافي إلى دراسة أنماط استبقاء الموظفين، وتقييم العوامل التنظيمية، وتحديد الأسباب الجذرية خلف مغادرة الموظفين للشركة. يعتمد هذا التحليل على دمج أداة **Microsoft Excel** و **Power BI** لتقديم رؤى تفصيلية.
 
 ---
 
-## 🛠️ Tools & Technologies Used
-* **Microsoft Excel:** Data profiling, Pivot Tables, Pivot Charts, and an interactive executive dashboard.
-* **Power BI:** Advanced data modeling, DAX measures, Power Query (ETL), and a custom Dark Theme dashboard design.
+## 🎯 أهداف العمل وسياق المشروع
+تعتبر حافظة الموظفين واستقرارهم تحدياً رئيسياً للمؤسسات الحديثة. يحلل هذا المشروع مجموعة بيانات شاملة تضم **1,470 سجل موظف**، مسلطاً الضوء على معدل تسرب عام يبلغ **16.1%**.
 
 ---
 
-## 📈 Key Analytical Findings & Insights
-1. **Attrition Rate:** The overall organizational attrition rate stands at **16.1%** (237 out of 1,470 employees)[cite: 8].
-2. **Salary Impact:** Employees earning lower salary brackets (**Upto 5k**) account for the highest volume of departures (**163 employees**), indicating a strong correlation between compensation and retention[cite: 8].
-3. **Age & Experience Demographics:** The age group **26-35 years** exhibits the highest turnover (**116 employees**), particularly among roles with fewer years of tenure at the company[cite: 8].
-4. **Job Roles:** High-demand operational roles such as *Laboratory Technicians* and *Sales Executives* experience significant movement[cite: 8].
+## 📊 لقطة سريعة للمشروع (Project Snapshot)
+
+| المقياس | النتيجة والتفاصيل |
+| :--- | :--- |
+| 🗂️ **إجمالي سجلات الموظفين** | ~1,470 سجل موظف |
+| 💰 **شريحة الراتب** | أعلى معدل مغادرة في الفئات الأقل (أقل من 5,000) |
+| 👥 **الفئة العمرية** | الفئة الأكثر تركيزاً للمغادرة بين 26 - 35 سنة |
+| 📉 **معدل التسرب العام** | 16.1% إجمالي معدل المغادرة |
+| 💼 **الأدوار الوظيفية** | تركز التسرب في فنيي المختبرات ومندوبي المبيعات |
+| 🖥️ **أدوات العرض** | لوحة تحكم تفاعلية بتصميم مظلم (Dark Theme) |
 
 ---
 
-## 🖼️ Dashboards & Visualizations
-
-### 1. Power BI Executive Dashboard (Dark Theme)
-Designed with a sleek dark aesthetic and structured layout to provide decision-makers with clear, interactive KPIs.
-
-![Power BI Dashboard Preview](HR_Analytics.png)
-
-### 2. Excel Analytical Dashboard
-Built using advanced Excel reporting techniques, Pivot Tables, and dynamic charts to summarize workforce metrics.
+## 🔍 رؤى تحليلية رئيسية (Key Insights)
+* معدل المغادرة الإجمالي للمؤسسة يبلغ **16.1%** (237 موظف من أصل 1,470)[cite: 8].
+* الموظفون ذوو الدخل الأقل (**Upto 5k**) يشكلون النسبة الأكبر من المغادرين (**163 موظفاً**)، مما يدل على وجود ارتباط وثيق بين الرواتب ومعدل الاحتفاظ[cite: 8].
+* الفئة العمرية بين **26 و 35 عاماً** تسجل أعلى نسبة دوران وظيفي، خصوصاً لأصحاب سنوات الخبرة الأقل في الشركة[cite: 8].
+* الوظائف التشغيلية مثل *فنيي المختبرات* و*مسؤولي المبيعات* تشهد أعلى معدلات حركة واستقالات[cite: 8].
 
 ---
 
-## 📂 Repository Structure
-* `HR_Analytics.csv` / `HR_Analytics.xlsx`: Raw employee dataset and Excel-based analysis model[cite: 8].
-* `HR_Analytics Dashboard.pbix`: The complete Power BI interactive dashboard file.
-* `HR_Analytics.png`: High-resolution preview image of the Power BI dashboard[cite: 8].
-
----
-*Created with passion by Lamiaa Mohamed* ✨
+## 🛠️ الأدوات والتقنيات المستخدمة
+* **تحليل ومعالجة البيانات:** Excel (Pivot Tables, Pivot Charts), Power Query (ETL).
+* **تصور البيانات والذكاء الاقتصادي:** Power BI (Dark Theme Executive Dashboard, DAX Measures).
+* **إدارة المشاريع والتوثيق:** GitHub (مستودع منظم بالفولدرات والتقارير التنفيذية).
