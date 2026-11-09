@@ -1,36 +1,92 @@
-# 📊 تحليل بيانات الموارد البشرية ومؤشرات مغادرة الموظفين (HR Analytics)
+# 📊 HR Analytics & Employee Attrition Intelligence
 
-يهدف هذا المشروع الاحترافي إلى دراسة أنماط استبقاء الموظفين، وتقييم العوامل التنظيمية، وتحديد الأسباب الجذرية خلف مغادرة الموظفين للشركة. يعتمد هذا التحليل على دمج أداة **Microsoft Excel** و **Power BI** لتقديم رؤى تفصيلية.
-
----
-
-## 🎯 أهداف العمل وسياق المشروع
-تعتبر حافظة الموظفين واستقرارهم تحدياً رئيسياً للمؤسسات الحديثة. يحلل هذا المشروع مجموعة بيانات شاملة تضم **1,470 سجل موظف**، مسلطاً الضوء على معدل تسرب عام يبلغ **16.1%**.
+An end-to-end HR Analytics project designed to investigate employee turnover patterns, evaluate organizational factors, and identify key drivers behind employee attrition. This project demonstrates dual-tool proficiency, utilizing both **Microsoft Excel** and **Power BI** to process, model, and visualize workforce metrics.
 
 ---
 
-## 📊 لقطة سريعة للمشروع (Project Snapshot)
+## 🎯 Business Goal & Project Context
 
-| المقياس | النتيجة والتفاصيل |
+Employee retention is a critical challenge for modern organizations. This project analyzes a comprehensive dataset of **1,470 employee records** to uncover actionable insights into why employees leave the company, highlighting a total attrition rate of **16.1%**.
+
+---
+
+## 📊 Project Snapshot
+
+| Metric | Result & Details |
 | :--- | :--- |
-| 🗂️ **إجمالي سجلات الموظفين** | ~1,470 سجل موظف |
-| 💰 **شريحة الراتب** | أعلى معدل مغادرة في الفئات الأقل (أقل من 5,000) |
-| 👥 **الفئة العمرية** | الفئة الأكثر تركيزاً للمغادرة بين 26 - 35 سنة |
-| 📉 **معدل التسرب العام** | 16.1% إجمالي معدل المغادرة |
-| 💼 **الأدوار الوظيفية** | تركز التسرب في فنيي المختبرات ومندوبي المبيعات |
-| 🖥️ **أدوات العرض** | لوحة تحكم تفاعلية بتصميم مظلم (Dark Theme) |
+| 🗂️ **Total Employee Records** | ~1,470 employee records |
+| 💰 **Salary Bracket** | Highest attrition concentrated in lower salary tiers (< 5k) |
+| 👥 **Age Demographics** | Peak turnover observed between 26 – 35 years of age |
+| 📉 **Overall Attrition Rate** | 16.1% total organizational turnover |
+| 💼 **Job Roles** | Higher movement in Laboratory Technicians and Sales Representatives |
+| 🖥️ **Presentation Tool** | Interactive Executive Dashboard with Dark Theme Design |
 
 ---
 
-## 🔍 رؤى تحليلية رئيسية (Key Insights)
-* معدل المغادرة الإجمالي للمؤسسة يبلغ **16.1%** (237 موظف من أصل 1,470)[cite: 8].
-* الموظفون ذوو الدخل الأقل (**Upto 5k**) يشكلون النسبة الأكبر من المغادرين (**163 موظفاً**)، مما يدل على وجود ارتباط وثيق بين الرواتب ومعدل الاحتفاظ[cite: 8].
-* الفئة العمرية بين **26 و 35 عاماً** تسجل أعلى نسبة دوران وظيفي، خصوصاً لأصحاب سنوات الخبرة الأقل في الشركة[cite: 8].
-* الوظائف التشغيلية مثل *فنيي المختبرات* و*مسؤولي المبيعات* تشهد أعلى معدلات حركة واستقالات[cite: 8].
+## ❓ Business & Research Questions
+
+To achieve the project objectives, this analysis addresses the following core questions:
+
+1. **Attrition Drivers:** Which salary brackets, age groups, and job roles exhibit the highest turnover rates within the organization?
+2. **Compensation Impact:** How does monthly income correlate with employee retention and overall satisfaction?
+3. **Departmental Trends:** Which departments experience the most significant operational pressure and employee exits?
+4. **Tenure & Promotion:** How does the time since the last promotion or years at the company affect attrition behavior?
 
 ---
 
-## 🛠️ الأدوات والتقنيات المستخدمة
-* **تحليل ومعالجة البيانات:** Excel (Pivot Tables, Pivot Charts), Power Query (ETL).
-* **تصور البيانات والذكاء الاقتصادي:** Power BI (Dark Theme Executive Dashboard, DAX Measures).
-* **إدارة المشاريع والتوثيق:** GitHub (مستودع منظم بالفولدرات والتقارير التنفيذية).
+## 🔍 Key Insights & Analysis Results
+
+* The overall organizational attrition rate stands at **16.1%** (237 out of 1,470 employees).
+* Employees in the lower income bracket (**Upto 5k**) represent the largest group of leavers (**163 employees**), indicating a strong correlation between salary and retention.
+* The age group between **26 and 35 years** experiences the highest turnover rate, particularly among those with fewer years at the company.
+* Operational roles such as *Laboratory Technicians* and *Sales Reps* exhibit the highest rates of movement and resignations.
+
+---
+
+## 🖥️ Power BI Dashboard Overview
+
+The interactive Power BI dashboard provides executive-level insights across key operational and financial dimensions:
+
+* 📊 **Cover & Executive Overview:** Project introduction and high-level summary of main KPIs, total employees, and attrition rates.
+* 📈 **Demographic & Salary Analysis:** Detailed breakdown of age groups, monthly income distributions, and job roles.
+* ⏱️ **Tenure & Performance Metrics:** Analysis of work-life balance, years at company, and promotion cycles.
+
+---
+
+## 🔄 Analytics Workflow
+
+`Raw HR Data` ➔ `Data Quality Check` ➔ `Data Cleaning & EDA` ➔ `Power Query ETL` ➔ `DAX Measures` ➔ `Power BI Dashboard` ➔ `Executive Insights`
+
+---
+
+## ⚙️ Methodology & Analytics Steps
+
+1. **Business Goal Definition:** Identifying key workforce metrics and attrition factors needed by management.
+2. **Data Cleaning & Exploration (EDA):** Handling missing data, filtering invalid records, and standardizing employee metrics.
+3. **Data Modeling & Calculation:** Building custom calculated columns and logic using Excel & Power Query.
+4. **Insight Extraction:** Analyzing trends in compensation, demographics, and employee retention.
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+* **Data Analysis & Processing:** Microsoft Excel (Pivot Tables, Charts), Power Query (ETL).
+* **Data Visualization & BI:** Power BI (Dark Theme Executive Dashboard, DAX Measures).
+* **Version Control & Portfolio:** GitHub (Structured repository with organized folders and executive reports).
+
+---
+
+## 📂 Repository Structure
+
+```text
+HR-Analytics-Employee-Attrition-Analysis/
+│
+├── data/
+│   ├── HR_Analytics.csv
+│   └── HR_Analytics.xlsx
+│
+├── dashboards/
+│   ├── HR Analytics Dashboard.pbix
+│   └── HR_Analytics.png
+│
+└── README.md
